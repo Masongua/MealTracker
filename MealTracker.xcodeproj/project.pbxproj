@@ -13,6 +13,8 @@
 		9A386EFF296DDFC600582255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A386EFD296DDFC600582255 /* Main.storyboard */; };
 		9A386F01296DDFCC00582255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A386F00296DDFCC00582255 /* Assets.xcassets */; };
 		9A386F04296DDFCC00582255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A386F02296DDFCC00582255 /* LaunchScreen.storyboard */; };
+		9A386F0C296DE1B600582255 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A386F0B296DE1B600582255 /* Food.swift */; };
+		9A386F10296DE86B00582255 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A386F0F296DE86B00582255 /* FoodTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9A386F00296DDFCC00582255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A386F03296DDFCC00582255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A386F05296DDFCC00582255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A386F0B296DE1B600582255 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		9A386F0F296DE86B00582255 /* FoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		9A386EEB296DDFC600582255 = {
 			isa = PBXGroup;
 			children = (
+				9A386F0B296DE1B600582255 /* Food.swift */,
 				9A386EF6296DDFC600582255 /* MealTracker */,
 				9A386EF5296DDFC600582255 /* Products */,
 			);
@@ -57,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				9A386EF7296DDFC600582255 /* AppDelegate.swift */,
+				9A386F0F296DE86B00582255 /* FoodTableViewController.swift */,
 				9A386EF9296DDFC600582255 /* SceneDelegate.swift */,
 				9A386EFB296DDFC600582255 /* ViewController.swift */,
 				9A386EFD296DDFC600582255 /* Main.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A386EFC296DDFC600582255 /* ViewController.swift in Sources */,
+				9A386F0C296DE1B600582255 /* Food.swift in Sources */,
+				9A386F10296DE86B00582255 /* FoodTableViewController.swift in Sources */,
 				9A386EF8296DDFC600582255 /* AppDelegate.swift in Sources */,
 				9A386EFA296DDFC600582255 /* SceneDelegate.swift in Sources */,
 			);
